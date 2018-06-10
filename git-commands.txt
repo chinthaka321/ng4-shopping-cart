@@ -1,0 +1,16 @@
+// Go to folder where you create the project folder
+// Run following Command
+
+$ git init [your project name]
+
+// Go inside project folder
+// Add files you want to the folder
+// This will open visual studio code app
+
+$ code .
+
+// Adding file to repo
+
+$ git add [file name to add]
+
+

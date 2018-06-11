@@ -1,5 +1,7 @@
 // Go to folder where you create the project folder
 // Run following Command
+//Reffer url 
+https://wpism.com/publish-local-project-github-command-line/
 
 $ git init [your project name]
 
@@ -13,4 +15,32 @@ $ code .
 
 $ git add [file name to add]
 
+// To add all files 
 
+$ git add *.* 
+
+// Commit file to git
+
+$ git commit -m "This is my first comment"
+
+/////////////////////////////////////
+Setting up no password prompt
+/////////////////////////////////////
+
+// Check current protocall 
+ git remote -v
+
+// It should be like this
+output:
+origin  git@github.com:chinthaka321/ng4-shopping-cart.git (fetch)
+origin  git@github.com:chinthaka321/ng4-shopping-cart.git (push)
+
+// If its not like that set it like this
+git remote set-url origin git@github.com:chinthaka321/ng4-shopping-cart.git
+
+// Create a key like follows
+ssh-keygen -t rsa -b 4096 -C "chinthaka321@yahoo.com"
+
+// This is create a key file on the drectory
+// Copy the code and put it to the git website settings copy whole string with the email and every thing
+ 
